@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Landing Page - Start Bootstrap Theme</title>
+  <title>Presend</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,12 +26,24 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-light bg-light static-top">
+  <!-- <nav class="navbar navbar-default bg-light static-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
-      <a class="btn btn-primary" href="#">Sign In</a>
+      <a class="navbar-brand" href="#">
+        <img class = "mx-auto" src = "/img/presend.svg">
+      </a>
+      <a class="navbar-brand" href="#">Sign In</a>
     </div>
-  </nav>
+  </nav> -->
+
+  <div id="navigation">
+    <nav class="navbar navbar-default">
+      <div class = "container" >
+       <ul class="nav">
+          <li class="nav-item"><a class="navbar-brand" href="#"><img src = "/img/icon.svg" width="120px"></a></li>
+       </ul>
+      </div>
+    </nav>
+ </div>
 
   <!-- Masthead -->
   <header class="masthead text-white text-center">
@@ -39,13 +51,14 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">Build a landing page for your business or project and generate more leads!</h1>
+          <h1>The new experience of gifting. </h1>
+          <h2 class="mb-5">Make them feel special with a thoughtful gift. </h2>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
+          <form action= "https://formspree.io/xgeojegy" method="POST">
             <div class="form-row">
               <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+                <input type="email" class="form-control form-control-lg" placeholder="Enter your email..." name = "email">
               </div>
               <div class="col-12 col-md-3">
                 <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
@@ -57,6 +70,8 @@
     </div>
   </header>
 
+
+
   <!-- Icons Grid -->
   <section class="features-icons bg-light text-center">
     <div class="container">
@@ -64,28 +79,29 @@
         <div class="col-lg-4">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
-              <i class="icon-screen-desktop m-auto text-primary"></i>
+              <i class="icon-people m-auto text-primary"></i>
             </div>
-            <h3>Fully Responsive</h3>
-            <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+            <h3>Gift it</h3>
+            <p class="lead mb-0">Choose a gift from our great selection for every occasion, and every budget.
+            </p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
-              <i class="icon-layers m-auto text-primary"></i>
+              <i class="icon-globe-alt m-auto text-primary"></i>
             </div>
-            <h3>Bootstrap 4 Ready</h3>
-            <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
+            <h3>Send it</h3>
+            <p class="lead mb-0">Your e-gift will be sent to the recipient via text or email.</p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="features-icons-item mx-auto mb-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
-              <i class="icon-check m-auto text-primary"></i>
+              <i class="icon-like m-auto text-primary"></i>
             </div>
-            <h3>Easy to Use</h3>
-            <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+            <h3>Accept it</h3>
+            <p class="lead mb-0">They can choose their favourite color, appropriate size or even exchange gifts before it ships!</p>
           </div>
         </div>
       </div>
@@ -99,54 +115,118 @@
 
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Fully Responsive Design</h2>
-          <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+          <h2>Sincere</h2>
+          <p class="lead mb-0">You no longer have to worry about gifting(even at the last minute), and its way more fun and personal</p>
         </div>
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
         <div class="col-lg-6 my-auto showcase-text">
-          <h2>Updated For Bootstrap 4</h2>
-          <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+          <h2>Savy</h2>
+          <p class="lead mb-0">Send it as an e-gift! We even provide free wrapping services.</p>
         </div>
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Easy to Use &amp; Customize</h2>
-          <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+          <h2>Simple</h2>
+          <p class="lead mb-0">Simple to use. All you need is their number/email address!</p>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- Testimonials -->
-  <section class="testimonials text-center bg-light">
+  
+  <!-- FAQ-->
+  <section class = "features-icons bg-light">
     <div class="container">
-      <h2 class="mb-5">What people are saying...</h2>
-      <div class="row">
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-            <h5>Margaret E.</h5>
-            <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
-          </div>
+      <h2>Frequently Asked Questions </h2>
+      <div class="panel-group" id="accordion" role="tablist">
+      <div class="panel panel-default">
+        <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
+        <h3 class="panel-title">
+          <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+            What is Presend?
+          </a>
+        </h3>
         </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-            <h5>Fred S.</h5>
-            <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
-          </div>
+        <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
+        <div class="panel-body px-3 mb-4">
+          <p class="lead mb-0">
+            Presend is the new online gift-shopping experience. You can now send gifts to your friends while having the convenience of online shopping. There won’t be any more last-minute shopping, or sore legs. Above all, our exquisite selection of gifts are meant to delight yourself and your friends.
+          </p>
         </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
-            <h5>Sarah W.</h5>
-            <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
-          </div>
         </div>
       </div>
+      
+      <div class="panel panel-default">
+        <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+        <h3 class="panel-title">
+          <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+          How do I send a gift?
+          </a>
+        </h3>
+        </div>
+        <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+        <div class="panel-body px-3 mb-4">
+          <p class="lead mb-0">
+            After selecting a gift from our catalogue, you can send it by inputting your friend’s email address or mobile number at checkout.
+          </p>
+        </div>
+        </div>
+      </div>
+      
+      <div class="panel panel-default">
+        <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
+        <h3 class="panel-title">
+          <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+            How do I accept a gift?
+          </a>
+        </h3>
+        </div>
+        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+        <div class="panel-body px-3 mb-4">
+          <p class="lead mb-0">
+            A link will be sent to the recipient via email or SMS. After accessing the link, the recipient can then accept the gift by inputting their preferred shipping address. Otherwise, they will be able to select another gift of the same or lower value.          </p>
+        </div>
+        </div>
+      </div>
+      
+      <div class="panel panel-default">
+        <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
+        <h3 class="panel-title">
+          <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+            When will the gift be shipped and when will it arrive?
+          </a>
+        </h3>
+        </div>
+        <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+        <div class="panel-body px-3 mb-4">
+          <p class="lead mb-0">
+            The gift will be shipped after the recipient enters their shipping address. It will arrive within 28 days upon confirmation.
+          </p>
+        </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <div class="panel-heading p-3 mb-3" role="tab" id="heading4">
+        <h3 class="panel-title">
+          <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
+            When is Presend launching?
+          </a>
+        </h3>
+        </div>
+        <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+        <div class="panel-body px-3 mb-4">
+          <p class="lead mb-0">
+            Presend will launch in June 2020. Stay tuned and sign up for the latest news and promotion!
+          </p>
+        </div>
+        </div>
+      </div>
+
+      </div>
+    
     </div>
   </section>
 
@@ -159,10 +239,10 @@
           <h2 class="mb-4">Ready to get started? Sign up now!</h2>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
+          <form action= "https://formspree.io/xgeojegy" method="POST">
             <div class="form-row">
               <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+                <input type="email" class="form-control form-control-lg" placeholder="Enter your email..." name = "email">
               </div>
               <div class="col-12 col-md-3">
                 <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
@@ -183,31 +263,14 @@
             <li class="list-inline-item">
               <a href="#">About</a>
             </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Contact</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
-            </li>
           </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2019. All Rights Reserved.</p>
+          <p class="text-muted small mb-4 mb-lg-0">&copy; Presend 2019. All Rights Reserved.</p>
         </div>
-        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+        <!-- <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
           <ul class="list-inline mb-0">
             <li class="list-inline-item mr-3">
               <a href="#">
                 <i class="fab fa-facebook fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
               </a>
             </li>
             <li class="list-inline-item">
@@ -216,7 +279,7 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
   </footer>
