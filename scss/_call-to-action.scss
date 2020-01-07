@@ -7,11 +7,20 @@
   padding-bottom: 7rem;
   .overlay {
     position: absolute;
-    background-color: $gray-900;
+    background-color: $gray-800;
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
     opacity: 0.7;
   }
+}
+
+
+// .text-white {
+//   color: $primary1 !important;
+// }
+
+.text-secondary {
+  color: $secondary1 !important;
 }

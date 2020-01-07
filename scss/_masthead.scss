@@ -1,18 +1,18 @@
 header.masthead {
   position: relative;
   background-color: $gray-800;
-  background: url('../img/bg-gift.jpg') no-repeat center center;
+  background: url('../img/6.png') no-repeat center center;
   @include background-cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
   .overlay {
     position: absolute;
-    background-color: $gray-900;
+    background-color: #f85c70;
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
-    opacity: 0.7;
+    opacity: 0.0;
   }
   h1 {
     font-size: 2rem;
