@@ -56,7 +56,11 @@ header.masthead h1 {
 }
 
 .showcase .showcase-img {
-  min-height: 30rem;
+  position: relative;
+  min-height: 23rem;
+  max-height: 35rem;
+  background: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -122,6 +126,12 @@ header.masthead h1 {
 
 .text-secondary {
   color: #f85c70 !important;
+}
+
+.align-center {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 footer.footer {
