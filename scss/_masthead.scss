@@ -15,8 +15,15 @@ header.masthead {
     opacity: 0.0;
   }
   h1 {
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
+  .bottom-liner {
+    padding-bottom: 0.5rem;
+  }
+  .bottom-button {
+    padding-bottom: 0.1rem;
+  }
+  
   @media (min-width: 768px) {
     padding-top: 12rem;
     padding-bottom: 12rem;
@@ -24,4 +31,10 @@ header.masthead {
       font-size: 3rem;
     }
   }
+}
+
+
+email{
+  padding-top:12rem;
+  margin-bottom: 15px;
 }
